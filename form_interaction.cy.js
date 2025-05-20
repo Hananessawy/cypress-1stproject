@@ -12,12 +12,12 @@ describe('Form interaction test', () => {
   .type('12345@Abc')
   .should('have.value', '12345@Abc')
 
-    // Checkbox (optional — add if you want to practice interaction)
+    // Checkbox 
    cy.get('input[type="checkbox"][name="remember"]')
   .check()
   .should('be.checked')
 
-    // Optional: Add a submit if you're targeting a real form
+    // submit button
     cy.contains('Log in').click()
   })
 })
