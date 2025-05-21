@@ -311,7 +311,7 @@ While Cypress is primarily for end-to-end testing, thinking in terms of componen
 *   **IDE:** Visual Studio Code with the Cypress extension.
 *   **Browser:** Chrome or Edge.
 *   **Node.js:** Latest LTS version.
-*   **NPM or Yarn:** Package managers.
+*   **PNPM:** Package managers.
 
 ### Build Configuration
 
