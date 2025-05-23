@@ -1,0 +1,6 @@
+{
+  "introspectionQuery": "query IntrospectionQuery { __schema { queryType { name } mutationType { name } subscriptionType { name } types { kind name description } } }",
+  "schemaTypesQuery": "{ __schema { types { name kind description } } }",
+  "queriesExplorerQuery": "{ __schema { queryType { fields { name description args { name description type { name kind } } type { name kind } } } } }",
+  "mutationsExplorerQuery": "{ __schema { mutationType { fields { name description args { name description type { name kind } } type { name kind } } } } }"
+}
